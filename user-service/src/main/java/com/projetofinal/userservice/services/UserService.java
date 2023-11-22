@@ -4,6 +4,7 @@ import com.projetofinal.userservice.models.classes.UserModel;
 import com.projetofinal.userservice.models.exceptions.UserExists;
 import com.projetofinal.userservice.models.records.RequestUser;
 import com.projetofinal.userservice.repositories.UserRepository;
+import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -29,4 +30,15 @@ public class UserService {
         userRepository.save(userModel);
         return userModel;
     }
+
+    public void deleteUser(long id) {
+        Optional<UserModel> user = userRepository.findById(id);
+        if(user.isPresent()){
+            userRepository.delete(user.get());
+        } else {
+            throw new UserExists("Usuário não encontrado!");
+        }
+
+    }
+
 }
