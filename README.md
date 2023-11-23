@@ -5,14 +5,16 @@
 ## Descrição do Projeto
 <p align="justify"> Desenvolvimento de Plataforma para Entusiastas da Franquia Zelda, criando um software que será estruturado em três microserviços distintos, com o objetivo de desempenhar um papel fundamental na experiência do usuário. </p>
 
-## Para esse projeto algumas instruções de configuração: :books:
-Linguagem usada:
-<p> Java </p>
+## Tecnologias :books:
 
+- [Java 17](https://www.java.com/pt-BR/) 
+- [Gradle](https://gradle.org/)
+- [JUnit](https://junit.org/junit5/)
+- [PostgreSQL](https://www.postgresql.org)
+
+
+Dependências:
 ```
-Gradle
-Postgresql
-JUnity
 SpringWeb
 Lombok
 ```
