@@ -32,30 +32,30 @@ public class UserService {
         return userModel;
     }
 
-//    public void deleteUser(long id) {
-//        Optional<UserModel> user = userRepository.findById(id);
-//        if (user.isPresent()) {
-//            userRepository.delete(user.get());
-//        } else {
-//            throw new UserExists("Usuário não encontrado!");
-//        }
-//
-//    }
+    public void deleteUser(long id) {
+        Optional<UserModel> user = userRepository.findById(id);
+        if (user.isPresent()) {
+            userRepository.delete(user.get());
+        } else {
+            throw new UserExists("Usuário não encontrado!");
+        }
+
+    }
 
 
-//    public UserModel updateUser(long id, UserModel updateUser) {
-//        Optional<UserModel> userModelOptional = userRepository.findById(id);
-//        if (userModelOptional.isPresent()) {
-//            UserModel userExists = userModelOptional.get();
-//
-//            userExists.setNome_usuario(updateUser.getNome_usuario());
-//            userExists.setIdade(updateUser.getIdade());
-//            userExists.setSenha(updateUser.getSenha());
-//
-//            userRepository.save(userExists);
-//
-//            return userExists;
-//        }
-//        throw new UserNotFoud("Usário não encontrado!");
-//    }
+    public UserModel updateUser(long id, UserModel updateUser) {
+        Optional<UserModel> userModelOptional = userRepository.findById(id);
+        if (userModelOptional.isPresent()) {
+            UserModel userExists = userModelOptional.get();
+
+            userExists.setNome_usuario(updateUser.getNome_usuario());
+            userExists.setIdade(updateUser.getIdade());
+            userExists.setSenha(updateUser.getSenha());
+
+            userRepository.save(userExists);
+
+            return userExists;
+        }
+        throw new UserNotFoud("Usário não encontrado!");
+    }
 }

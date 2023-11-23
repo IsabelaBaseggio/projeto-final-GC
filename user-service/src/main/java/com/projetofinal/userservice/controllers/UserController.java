@@ -42,29 +42,29 @@ public class UserController {
 
     }
 
-    //MÉTODO ATUALIZAR
-//    @PostMapping("/{id}/update")
-//    public ResponseEntity updateUser(@PathVariable(value = "id") long id, @Valid @RequestBody RequestUser requestUser, BindingResult result) {
-//        try {
-//            UserModel user = new UserModel(requestUser);
-//            UserModel userUpdate = userService.updateUser(id, user);
-//            return ResponseEntity.status(HttpStatus.CREATED).body("Usuário atualizado com sucesso!");
-//        } catch (RuntimeException e) {
-//            return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body(e.getMessage());
-//        }
-//    }
+   // MÉTODO ATUALIZAR
+    @PutMapping("/{id}/update")
+    public ResponseEntity updateUser(@PathVariable(value = "id") long id, @Valid @RequestBody RequestUser requestUser, BindingResult result) {
+        try {
+            UserModel user = new UserModel(requestUser);
+            UserModel userUpdate = userService.updateUser(id, user);
+            return ResponseEntity.status(HttpStatus.CREATED).body("Usuário atualizado com sucesso!");
+        } catch (RuntimeException e) {
+            return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body(e.getMessage());
+        }
+    }
 
 
-//    //MÉTODO DELETAR
-//   // @DeleteMapping("/{id}")
-// //   public ResponseEntity<String> deleteUser(@Valid @PathVariable long id, BindingResult result) {
-//      //  try {
-//     //       userService.deleteUser(id);
-//       //     return ResponseEntity.ok().body("Usuário deletado com sucesso!");
-//     //   } catch (Exception e) {
-//        //    return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e.getMessage());
-//        }
-//    }
+    //MÉTODO DELETAR
+    @DeleteMapping("/{id}/delete")
+   public ResponseEntity<String> deleteUser(@PathVariable long id) {
+       try {
+           userService.deleteUser(id);
+           return ResponseEntity.ok().body("Usuário deletado com sucesso!");
+       } catch (Exception e) {
+           return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e.getMessage());
+        }
+    }
 
 
 }
