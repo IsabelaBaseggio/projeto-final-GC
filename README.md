@@ -26,7 +26,7 @@ Lombok
   <tr>
     <td align="center">
       <a href="#">
-       <img src="https://github.com/IsabelaBaseggio.png" width="100px;" alt="Foto de perfil de Isabela"/<br>
+       <img src="https://github.com/IsabelaBaseggio.png" width="100px;" alt="Foto de perfil de Isabela Baseggio" /<br>
         <sub>
           <b>Isabela Baseggio</b>
         </sub>
@@ -34,7 +34,7 @@ Lombok
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://github.com/bruno-ssilveira.png" width="100px;" alt="Foto de perfil de Bruno Silveira"/<br>
+        <img src="https://github.com/bruno-ssilveira.png" width="100px;" alt="Foto de perfil de Bruno Silveira" /<br>
         <sub>
           <b>Bruno Silveira</b>
         </sub>
