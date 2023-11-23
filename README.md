@@ -1,4 +1,4 @@
-# Projeto Final GC </h1>
+# Projeto Final GC ---> API de Zelda </h1> 🧝⚔️🏹🛡️
 
 >Status do projeto: Em desenvolvimento:warning:
 
@@ -21,15 +21,60 @@ Lombok
 ## Estrutura do projeto
 
 ## Equipe de Devs
-[<img src="https://avatars.githubusercontent.com/u/100102717?v=4&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=" width=115 > <br> <sub> Isabela Baseggio </sub>](https://github.com/IsabelaBaseggio)
-| :---: |  
 
-[<img src="https://avatars.githubusercontent.com/u/129340450?v=4&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=" width=115 > <br> <sub> Bruno Silveira </sub>](https://github.com/bruno-ssilveira)
-| :---: |  
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+       <img src="https://github.com/IsabelaBaseggio.png" width="100px;" alt="Foto de perfil de Isabela Baseggio"/<br>
+        <sub>
+          <b>Isabela Baseggio</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/bruno-ssilveira.png" width="100px;" alt="Foto de perfil de Bruno Silveira"/><br>
+        <sub>
+          <b>Bruno Silveira</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/andria-gif.png" width="100px;" alt="Foto de perfil de Ândria Dias"/><br>
+        <sub>
+          <b>Ândria Dias</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/bunnydetails.png" width="100px;" alt="Foto de perfil de Alice Martins"/><br>
+        <sub>
+          <b>Alice Martins</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/Clarke2302.png" width="100px;" alt="Foto de perfil de Clarke Brasil"/><br>
+        <sub>
+          <b>Clarke Brasil</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-[<img src="https://avatars.githubusercontent.com/u/82342320?v=4&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=" width=115 > <br> <sub> Ândria Dias </sub>](https://github.com/andria-gif)
-| :---: |  
 
-[<img src="https://avatars.githubusercontent.com/u/135395152?v=4&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=" width=115 > <br> <sub> Alice Martins </sub>](https://github.com/bunnydetails)
-| :---: |  
+⢦⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⡤
+⠘⣿⣿⣿⣷⣦⣄⣀⠀⢠⠔⠀⢀⡼⠿⠿⢆⠀⠀⠲⣄⠀⣀⣠⣴⣾⣿⣿⣿⠇
+⠀⠈⠉⠉⠛⠛⠻⠿⢿⣿⠀⢀⣾⣷⡀⢀⣾⣷⡀⠀⣿⡿⠿⠿⠛⠛⠉⠉⠁⠀
+⠀⠀⣤⣤⣶⣶⣶⣶⣶⣿⣆⠈⠉⠉⠉⠉⠉⠉⠉⢠⣿⣶⣶⣶⣶⣶⣤⣤⠀⠀
+⠀⠀⠘⣿⡿⠟⠛⠉⣡⣿⣿⣷⣤⠀⢠⣆⠀⣤⣶⣿⣿⣬⡉⠛⠻⠿⣿⠇⠀⠀
+⠀⠀⠀⠀⠀⢀⣴⣿⡿⢋⣿⣿⠛⢠⣿⣿⡄⠛⢿⣿⡘⢿⣿⣦⣀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠉⠻⠏⠀⣸⣿⡇⢀⠻⣿⣿⠟⣀⠸⣿⣇⠀⠙⠟⠋⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢠⡟⠁⣿⣿⠀⠻⣆⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠘⢟⠉⠙⠓⠀⠘⠏⠀⠘⠟⠉⡻⠋⠀⠀⠀⠀⠀⠀⠀⠀
 
