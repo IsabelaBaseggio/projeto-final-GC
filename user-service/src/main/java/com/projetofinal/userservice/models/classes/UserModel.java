@@ -2,6 +2,7 @@ package com.projetofinal.userservice.models.classes;
 
 import com.projetofinal.userservice.models.records.RequestUser;
 import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -9,6 +10,7 @@ import lombok.Setter;
 import java.io.Serializable;
 
 @Entity
+@Data
 // @NoArgsConstructor
 @Table(name = "usuarios")
 public class UserModel implements Serializable {
@@ -39,39 +41,4 @@ public class UserModel implements Serializable {
         this.senha = requestUser.senha();
     }
 
-    public long getId() {
-        return id;
-    }
-
-    public String getNome_usuario() {
-        return nome_usuario;
-    }
-
-    public Integer getIdade() {
-        return idade;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getSenha() {
-        return senha;
-    }
-
-    public void setNome_usuario(String nome_usuario) {
-        this.nome_usuario = nome_usuario;
-    }
-
-    public void setIdade(Integer idade) {
-        this.idade = idade;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setSenha(String senha) {
-        this.senha = senha;
-    }
 }

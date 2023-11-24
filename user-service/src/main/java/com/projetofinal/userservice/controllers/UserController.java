@@ -12,6 +12,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/user")
@@ -46,8 +47,8 @@ public class UserController {
     @PutMapping("/{id}/update")
     public ResponseEntity updateUser(@PathVariable(value = "id") long id, @Valid @RequestBody RequestUser requestUser, BindingResult result) {
         try {
-            UserModel user = new UserModel(requestUser);
-            UserModel userUpdate = userService.updateUser(id, user);
+
+            UserModel userUpdate = userService.updateUser(id, requestUser);
             return ResponseEntity.status(HttpStatus.CREATED).body("Usuário atualizado com sucesso!");
         } catch (RuntimeException e) {
             return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body(e.getMessage());
@@ -59,7 +60,7 @@ public class UserController {
     @DeleteMapping("/{id}/delete")
    public ResponseEntity<String> deleteUser(@PathVariable long id) {
        try {
-           userService.deleteUser(id);
+       String user = userService.deleteUser(id);
            return ResponseEntity.ok().body("Usuário deletado com sucesso!");
        } catch (Exception e) {
            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e.getMessage());
