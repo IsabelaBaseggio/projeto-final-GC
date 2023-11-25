@@ -3,15 +3,12 @@ package com.projetofinal.userservice.models.classes;
 import com.projetofinal.userservice.models.records.RequestUser;
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+
 
 import java.io.Serializable;
-import java.util.Objects;
 
-@Entity
 @Data
+@Entity
 // @NoArgsConstructor
 @Table(name = "usuarios")
 public class UserModel implements Serializable {
@@ -35,7 +32,7 @@ public class UserModel implements Serializable {
 
     public UserModel(){}
 
-    public UserModel(RequestUser requestUser){
+    public UserModel(RequestUser requestUser) {
         this.nome_usuario = requestUser.nome_usuario();
         this.idade = requestUser.idade();
         this.email = requestUser.email();
