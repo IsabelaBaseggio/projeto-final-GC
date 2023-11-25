@@ -3,12 +3,8 @@ package com.projetofinal.userservice.models.classes;
 import com.projetofinal.userservice.models.records.RequestUser;
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import java.io.Serializable;
-import java.util.Objects;
 
 @Data
 @Entity
