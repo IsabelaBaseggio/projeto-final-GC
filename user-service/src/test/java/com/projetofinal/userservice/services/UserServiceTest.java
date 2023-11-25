@@ -16,6 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import java.util.Optional;
 
 import static org.hibernate.validator.internal.util.Contracts.assertTrue;
@@ -36,18 +37,6 @@ public class UserServiceTest {
         MockitoAnnotations.openMocks(this);
     }
 
-//    @Test
-//    public void testAddUser() {
-//        RequestUser requestUser = new RequestUser("Ana", 20, "ana@email.com", "adc123");
-//        UserModel user = new UserModel(requestUser);
-//        when(userRepository.save(user)).thenReturn(user);
-//
-//        UserModel resultado = userService.addUser(requestUser);
-//
-//        verify(userRepository).save(user);
-//
-//        assertEquals(user, resultado);
-//    }
 
     @Test
     public void testAddUser() {
@@ -70,6 +59,7 @@ public class UserServiceTest {
         assertEquals(user.getEmail(), resultado.getEmail());
         assertEquals(user.getSenha(), resultado.getSenha());
     }
+
     @Test
     public void testDeleteUser() {
         RequestUser requestUser = new RequestUser("Ana", 20, "ana@email.com", "adc123");
@@ -107,6 +97,7 @@ public class UserServiceTest {
         assertTrue(userResult.equals(userUpData));
 
     }
+
     @Test
     public void testeUpdateUser_notFound() {
         long id = 1l;
@@ -119,4 +110,4 @@ public class UserServiceTest {
             userService.updateUser(id, requestUser);
         });
     }
-    }
+}
