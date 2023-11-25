@@ -43,7 +43,7 @@ public class UserController {
 
     }
 
-   // MÉTODO ATUALIZAR
+    // MÉTODO ATUALIZAR
     @PutMapping("/{id}/update")
     public ResponseEntity updateUser(@PathVariable(value = "id") long id, @Valid @RequestBody RequestUser requestUser, BindingResult result) {
         try {
@@ -58,12 +58,12 @@ public class UserController {
 
     //MÉTODO DELETAR
     @DeleteMapping("/{id}/delete")
-   public ResponseEntity<String> deleteUser(@PathVariable long id) {
-       try {
-       String user = userService.deleteUser(id);
-           return ResponseEntity.ok().body("Usuário deletado com sucesso!");
-       } catch (Exception e) {
-           return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e.getMessage());
+    public ResponseEntity<String> deleteUser(@PathVariable long id) {
+        try {
+            String user = userService.deleteUser(id);
+            return ResponseEntity.ok().body("Usuário deletado com sucesso!");
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e.getMessage());
         }
     }
 

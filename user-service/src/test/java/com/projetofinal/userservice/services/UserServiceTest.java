@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.testng.Assert;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,9 +55,9 @@ public class UserServiceTest {
 
         verify(userRepository).findAll();
 
-        assertEquals(users, result);
+        Assert.assertEquals(users, result);
 
-        assertEquals(users.size(), result.size());
+        Assert.assertEquals(users.size(), result.size());
     }
 
 

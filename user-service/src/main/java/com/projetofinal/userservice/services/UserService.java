@@ -6,7 +6,6 @@ import com.projetofinal.userservice.models.exceptions.UserNotFoud;
 import com.projetofinal.userservice.models.records.RequestUser;
 import com.projetofinal.userservice.repositories.UserRepository;
 import lombok.Data;
-import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
