@@ -2,11 +2,11 @@
   <library name="Gradle: org.springframework.boot:spring-boot-devtools:3.1.5" type="java-imported" external-system-id="GRADLE">
     <properties groupId="org.springframework.boot" artifactId="spring-boot-devtools" version="3.1.5" />
     <CLASSES>
-      <root url="jar://$USER_HOME$/IdeaProjects/to-do-spring-java/to-do-service/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/3.1.5/e7725476fbcd154d7ee5d85446cac2e16db1d818/spring-boot-devtools-3.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/3.1.5/e7725476fbcd154d7ee5d85446cac2e16db1d818/spring-boot-devtools-3.1.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/IdeaProjects/to-do-spring-java/to-do-service/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/3.1.5/aa530e9ada0605b7fcf6d357e57063978914d672/spring-boot-devtools-3.1.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/3.1.5/aa530e9ada0605b7fcf6d357e57063978914d672/spring-boot-devtools-3.1.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
