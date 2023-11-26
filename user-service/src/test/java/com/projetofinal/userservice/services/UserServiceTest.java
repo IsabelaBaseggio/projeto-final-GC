@@ -16,7 +16,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.verify;
@@ -64,14 +63,14 @@ public class UserServiceTest {
     @Test
     public void testAddUser() {
         RequestUser requestUser = new RequestUser("Ana", 20, "ana@email.com", "adc123");
-        UserModel user = new UserModel(requestUser); // @user16546
+        UserModel user = new UserModel(requestUser);
         String email = "ana@email.com";
 
         when(userRepository.findByEmail(email)).thenReturn(Optional.empty());
 
         when(userRepository.save(user)).thenReturn(user);
 
-        UserModel resultado = userService.addUser(requestUser); // @user475452
+        UserModel resultado = userService.addUser(requestUser);
 
         verify(userRepository).save(resultado);
 
