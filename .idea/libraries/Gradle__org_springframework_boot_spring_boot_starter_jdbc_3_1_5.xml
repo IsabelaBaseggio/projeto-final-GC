@@ -2,11 +2,11 @@
   <library name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:3.1.5" type="java-imported" external-system-id="GRADLE">
     <properties groupId="org.springframework.boot" artifactId="spring-boot-starter-jdbc" version="3.1.5" />
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/3.1.5/138c0e0ab493d8a51bb51dfc3b7144d702ff4c26/spring-boot-starter-jdbc-3.1.5.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/to-do-spring-java/to-do-service/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/3.1.5/138c0e0ab493d8a51bb51dfc3b7144d702ff4c26/spring-boot-starter-jdbc-3.1.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/3.1.5/26e8211de7f3a779c537185707cea7401534acc8/spring-boot-starter-jdbc-3.1.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/to-do-spring-java/to-do-service/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/3.1.5/26e8211de7f3a779c537185707cea7401534acc8/spring-boot-starter-jdbc-3.1.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

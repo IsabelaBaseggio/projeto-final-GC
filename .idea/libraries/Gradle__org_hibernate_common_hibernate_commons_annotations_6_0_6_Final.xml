@@ -2,11 +2,11 @@
   <library name="Gradle: org.hibernate.common:hibernate-commons-annotations:6.0.6.Final" type="java-imported" external-system-id="GRADLE">
     <properties groupId="org.hibernate.common" artifactId="hibernate-commons-annotations" version="6.0.6.Final" />
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/6.0.6.Final/77a5f94b56d49508e0ee334751db5b78e5ccd50c/hibernate-commons-annotations-6.0.6.Final.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/to-do-spring-java/to-do-service/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/6.0.6.Final/77a5f94b56d49508e0ee334751db5b78e5ccd50c/hibernate-commons-annotations-6.0.6.Final.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/6.0.6.Final/113904346d97dbdf52883c90ef1ccd0bb8ffb74d/hibernate-commons-annotations-6.0.6.Final-sources.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/to-do-spring-java/to-do-service/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/6.0.6.Final/113904346d97dbdf52883c90ef1ccd0bb8ffb74d/hibernate-commons-annotations-6.0.6.Final-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
