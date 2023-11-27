@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcbcdd9-e1e1-4fa9-95de-0bc5ed9adda5" name="Changes" comment="🔧  chore: structure packages" />
+    <list default="true" id="1bcbcdd9-e1e1-4fa9-95de-0bc5ed9adda5" name="Changes" comment="🔧  chore: structure packages">
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/classes/GameModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +18,17 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="main" />
+        <entry key="$PROJECT_DIR$/.." value="developer" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -26,9 +36,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2YjGyhDKzx0qrofHLlHZv4JjFhb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,7 +48,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "developer",
+    "git-widget-placeholder": "game-model-PF-4.0",
     "last_opened_file_path": "C:/Users/Rafael/Desktop/projeto-final/zelda-service"
   }
 }]]></component>
@@ -105,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701034790903</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="🔧  chore: structure packages">
+      <option name="closed" value="true" />
+      <created>1701036296498</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701036296498</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" init e  chore" />
     <MESSAGE value=" init e  chore: zelda-service API" />
+    <MESSAGE value="  chore: structure packages" />
+    <MESSAGE value=":sparkles:&#9;feat: consumindo Zelda Api com WebClient" />
     <MESSAGE value="  chore: structure packages" />
     <option name="LAST_COMMIT_MESSAGE" value="  chore: structure packages" />
   </component>
