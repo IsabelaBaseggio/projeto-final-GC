@@ -1,4 +1,4 @@
-package models.classes;
+package com.projetofinal.zeldaservice.models.classes;
 
 
 import lombok.Data;
