@@ -32,7 +32,7 @@ dependencies {
 	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
 	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
 	testImplementation 'org.mockito:mockito-core:3.12.4'
-	implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.3'
 }
 
 tasks.named('test') {
