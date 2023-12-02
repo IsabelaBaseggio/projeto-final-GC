@@ -4,8 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcbcdd9-e1e1-4fa9-95de-0bc5ed9adda5" name="Changes" comment="✨ feat: listando games da API Zelda">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/projetofinal/zeldaservice/services/GameServiceTest.java" afterDir="false" />
+    <list default="true" id="1bcbcdd9-e1e1-4fa9-95de-0bc5ed9adda5" name="Changes" comment=":bug: :recycle: fix &amp; refactor: removendo WebClient e adicionando RestTemplate">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetofinal/zeldaservice/models/classes/ListGameModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/projetofinal/zeldaservice/ZeldaServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/projetofinal/zeldaservice/ZeldaServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/projetofinal/zeldaservice/ZeldaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/projetofinal/zeldaservice/ZeldaServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/projetofinal/zeldaservice/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/projetofinal/zeldaservice/services/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/projetofinal/zeldaservice/ZeldaServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/projetofinal/zeldaservice/ZeldaServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/projetofinal/zeldaservice/services/GameServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/projetofinal/zeldaservice/services/GameServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +65,11 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;developer&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;listGames-feat-PF-610&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Rafael/Desktop/projeto-final/zelda-service&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.GameServiceTest.testListGames">
+  <component name="RunManager" selected="Gradle.GameServiceTest">
     <configuration name="ZeldaServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.projetofinal.zeldaservice.ZeldaServiceApplication" />
       <module name="zelda-service.main" />
@@ -64,6 +82,30 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="GameServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.projetofinal.zeldaservice.services.GameServiceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="GameServiceTest.testListGames" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -91,8 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GameServiceTest" />
         <item itemvalue="Gradle.GameServiceTest.testListGames" />
-        <item itemvalue="Application.ZeldaServiceApplication" />
         <item itemvalue="Application.ZeldaServiceApplication" />
         <item itemvalue="Application.ZeldaServiceApplication" />
         <item itemvalue="Application.ZeldaServiceApplication" />
