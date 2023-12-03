@@ -21,16 +21,6 @@ public class GameController {
         this.gameService = gameService;
     }
 
-    @GetMapping("/games")
-    public ResponseEntity listGames(){
-        try{
-            List<GameModel> gamesList = gameService.listGames();
-            return ResponseEntity.status(HttpStatus.OK).body(gamesList);
-        } catch (RuntimeException e) {
-            return ResponseEntity.status(HttpStatus.OK).body(e.getMessage());
-        }
-    }
-
     @GetMapping("/games/{gameId}")
     public ResponseEntity<String> getGame(@PathVariable String gameId) {
         try {
