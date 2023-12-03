@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcbcdd9-e1e1-4fa9-95de-0bc5ed9adda5" name="Changes" comment="✨ feat: listando games da API Zelda">
-      <changelist_data name="Isabela Baseggio" email="isabela.baseggio7@gmail.com" />
+    <list default="true" id="1bcbcdd9-e1e1-4fa9-95de-0bc5ed9adda5" name="Changes" comment="🐛 ♻️ fix &amp; refactor: removendo WebClient">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/projetofinal/zeldaservice/services/GameServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/projetofinal/zeldaservice/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/projetofinal/zeldaservice/controllers/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/projetofinal/zeldaservice/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/projetofinal/zeldaservice/services/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/projetofinal/zeldaservice/ZeldaServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/projetofinal/zeldaservice/ZeldaServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +74,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging game-model-PF-5.2",
+    "git-widget-placeholder": "game-model-PF-5.2",
     "last_opened_file_path": "C:/Users/Rafael/Desktop/projeto-final/zelda-service"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ZeldaServiceApplication">
+  <component name="RunManager" selected="Gradle.GameServiceTest.testGamesIdInvalid">
     <configuration name="ZeldaServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.projetofinal.zeldaservice.ZeldaServiceApplication" />
       <module name="zelda-service.main" />
@@ -79,6 +91,54 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="GameServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.projetofinal.zeldaservice.services.GameServiceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GameServiceTest.testGamesIdInvalid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.projetofinal.zeldaservice.services.GameServiceTest.testGamesIdInvalid&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="GameServiceTest.testListGames" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -106,9 +166,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GameServiceTest.testGamesIdInvalid" />
+        <item itemvalue="Gradle.GameServiceTest" />
         <item itemvalue="Gradle.GameServiceTest.testListGames" />
-        <item itemvalue="Application.ZeldaServiceApplication" />
-        <item itemvalue="Application.ZeldaServiceApplication" />
         <item itemvalue="Application.ZeldaServiceApplication" />
         <item itemvalue="Application.ZeldaServiceApplication" />
       </list>
@@ -171,7 +231,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701053141904</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="✨  :sparkles:&#9;feat: modelo de objeto para resposta de endpoint https://zelda.fanapis.com/api/games/:game_id">
+      <option name="closed" value="true" />
+      <created>1701576225489</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701576225489</updated>
+    </task>
+    <task id="LOCAL-00008" summary="🐛 ♻️ fix &amp; refactor: removendo WebClient">
+      <option name="closed" value="true" />
+      <created>1701576269995</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701576269995</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +270,8 @@
     <MESSAGE value=" :heavy_plus_sign:&#9;build: adicionando dependências JUnit-Jupiper e Mokito" />
     <MESSAGE value=" :sparkles:&#9;feat" />
     <MESSAGE value="✨ feat: listando games da API Zelda" />
-    <option name="LAST_COMMIT_MESSAGE" value="✨ feat: listando games da API Zelda" />
+    <MESSAGE value="✨  :sparkles:&#9;feat: modelo de objeto para resposta de endpoint https://zelda.fanapis.com/api/games/:game_id" />
+    <MESSAGE value=" ♻️ fix &amp; refactor: removendo WebClient" />
+    <option name="LAST_COMMIT_MESSAGE" value=" ♻️ fix &amp; refactor: removendo WebClient" />
   </component>
 </project>
