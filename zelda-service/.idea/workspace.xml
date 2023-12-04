@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcbcdd9-e1e1-4fa9-95de-0bc5ed9adda5" name="Changes" comment=":bricks:&#9;ci: merge game-model-PF-5.2 into developer" />
+    <list default="true" id="1bcbcdd9-e1e1-4fa9-95de-0bc5ed9adda5" name="Changes" comment=":bricks:&#9;ci: merge developer into main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,14 +58,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Rafael/Desktop/projeto-final/zelda-service"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rafael/Desktop/projeto-final/zelda-service&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ZeldaServiceApplication">
     <configuration name="ZeldaServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.projetofinal.zeldaservice.ZeldaServiceApplication" />
@@ -241,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701639882744</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=":bricks:&#9;ci: merge developer into main">
+      <option name="closed" value="true" />
+      <created>1701639974389</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701639974389</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +277,7 @@
     <MESSAGE value="✨  :sparkles:&#9;feat: modelo de objeto para resposta de endpoint https://zelda.fanapis.com/api/games/:game_id" />
     <MESSAGE value=" ♻️ fix &amp; refactor: removendo WebClient" />
     <MESSAGE value=":bricks:&#9;ci: merge game-model-PF-5.2 into developer" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bricks:&#9;ci: merge game-model-PF-5.2 into developer" />
+    <MESSAGE value=":bricks:&#9;ci: merge developer into main" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bricks:&#9;ci: merge developer into main" />
   </component>
 </project>
