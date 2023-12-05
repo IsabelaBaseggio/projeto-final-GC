@@ -1,6 +1,8 @@
 # Projeto Final GC ---> API de Zelda 🧝⚔️🏹🛡️ </h1>
 
->Status do projeto: Em desenvolvimento:warning:
+![img](https://github.com/IsabelaBaseggio/projeto-final-GC/blob/main/zelda.jpg)
+
+>Status do projeto: Em desenvolvimento :warning:
 
 ## Descrição do Projeto
 <p align="justify"> Desenvolvimento de Plataforma para Entusiastas da Franquia Zelda, criando um software que será estruturado em três microserviços distintos, com o objetivo de desempenhar um papel fundamental na experiência do usuário. </p>
@@ -15,12 +17,38 @@
 
 Dependências:
 ```
+PostGreSQL Drive
 SpringWeb
 Lombok
 ```
 ## Execução do Projeto
 
+1. User Service
+2. Zelda Service
+3. Gateway Service
+
+Pré Requisitos:
+
+Instalação do PostgreSQL, 
+
 ## Estrutura do projeto
+
+🍃 Criação Banco de Dados no PostgreSQL
+
+Foi-se criado o banco de dados para ser integrado em nossa API chamado "projetofinalgc". 
+Criamos 2 tabelas, a tabela de usuário (para a criação de um usuário no sistema) e a tabela cache (tabela para adicionar seu jogo fav da saga Zelda.
+
+🍃 User Service
+
+Nisso permitimos com a API que uma conta de usuário fosse: criada, deletada, lida e atualizada.
+
+🍃 Zelda Service
+
+Nisso permitimos com a API que um jogo favorito fosse: criado, deletado, lido e atualizado.
+
+🍃 Gateway Service
+
+Foi-se criando uma API Gateway onde terá todos os endpoints das outras APIS a serem chamadas.
 
 ## Equipe de Devs
 
