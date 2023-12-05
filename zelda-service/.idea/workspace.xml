@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bcbcdd9-e1e1-4fa9-95de-0bc5ed9adda5" name="Changes" comment=":bricks:&#9;ci: merge developer into main">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway-service/src/main/java/GatewayConfiguration/GatewayConfigUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +59,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rafael/Desktop/projeto-final/zelda-service&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "pf-2.2-Configuar-Gateway",
+    "last_opened_file_path": "C:/Users/Rafael/Desktop/projeto-final/zelda-service"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.ZeldaServiceApplication">
     <configuration name="ZeldaServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.projetofinal.zeldaservice.ZeldaServiceApplication" />
