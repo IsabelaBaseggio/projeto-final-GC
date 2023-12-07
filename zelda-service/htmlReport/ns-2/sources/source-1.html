@@ -1,0 +1,146 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=windows-1252"> 
+  <title>Coverage Report > GameController</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">com.projetofinal.zeldaservice.controllers</a>
+</div>
+
+<h1>Coverage Summary for Class: GameController (com.projetofinal.zeldaservice.controllers)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">GameController</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/10)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package com.projetofinal.zeldaservice.controllers;
+&nbsp;
+&nbsp;import com.projetofinal.zeldaservice.models.classes.GameModel;
+&nbsp;import com.projetofinal.zeldaservice.services.GameService;
+&nbsp;import org.springframework.http.HttpStatus;
+&nbsp;import org.springframework.http.ResponseEntity;
+&nbsp;import org.springframework.web.bind.annotation.GetMapping;
+&nbsp;import org.springframework.web.bind.annotation.PathVariable;
+&nbsp;import org.springframework.web.bind.annotation.RequestMapping;
+&nbsp;import org.springframework.web.bind.annotation.RestController;
+&nbsp;
+&nbsp;import java.util.List;
+&nbsp;
+&nbsp;@RestController
+&nbsp;@RequestMapping(&quot;/zelda-service&quot;)
+&nbsp;public class GameController {
+&nbsp;
+&nbsp;    private final GameService gameService;
+&nbsp;
+<b class="nc">&nbsp;    public GameController(GameService gameService){</b>
+<b class="nc">&nbsp;        this.gameService = gameService;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @GetMapping(&quot;/games&quot;)
+&nbsp;    public ResponseEntity listGames(){
+&nbsp;        try{
+<b class="nc">&nbsp;            List&lt;GameModel&gt; gamesList = gameService.listGames();</b>
+<b class="nc">&nbsp;            return ResponseEntity.status(HttpStatus.OK).body(gamesList);</b>
+<b class="nc">&nbsp;        } catch (RuntimeException e) {</b>
+<b class="nc">&nbsp;            return ResponseEntity.status(HttpStatus.OK).body(e.getMessage());</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;    @GetMapping(&quot;/games/{gameId}&quot;)
+&nbsp;    public ResponseEntity getGame(@PathVariable String gameId) {
+&nbsp;        try {
+<b class="nc">&nbsp;            GameModel games = gameService.getGameById(gameId);</b>
+<b class="nc">&nbsp;            return ResponseEntity.status(HttpStatus.CREATED).body(games);</b>
+<b class="nc">&nbsp;        } catch (RuntimeException e){</b>
+<b class="nc">&nbsp;            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-12-07 01:07</div>
+</div>
+</body>
+</html>
